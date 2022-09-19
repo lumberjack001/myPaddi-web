@@ -1,0 +1,15 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background {
+    padding: 95px 44px 176.8px 62.5px;
+    border: solid 1px #fff;
+    background-image: linear-gradient(166deg, #fcfcfc 3%, #f5f4f9 97%);
+}
+
+.WEB-THE-ZONE {
+    width: 100%;
+    padding: 0 0 129.8px;
+    background-color: #f3f2f7;
+}
