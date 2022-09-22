@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.33" height="18.33" viewBox="0 0 18.33 18.33">
+    <defs>
+        <style>
+            .cls-1{fill:#575757}
+        </style>
+    </defs>
+    <g id="clock-2">
+        <g id="Group_55" transform="translate(8.455 4.253)">
+            <g id="Group_54">
+                <path id="Path_319" d="M240.145 125.31l-2.556-1.917v-3.9a.71.71 0 1 0-1.42 0v4.259a.708.708 0 0 0 .284.568l2.84 2.13a.71.71 0 0 0 .852-1.136z" class="cls-1" transform="translate(-236.169 -118.779)"/>
+            </g>
+        </g>
+        <g id="Group_57">
+            <g id="Group_56">
+                <path id="Path_320" d="M9.165 0a9.165 9.165 0 1 0 9.165 9.165A9.175 9.175 0 0 0 9.165 0zm0 16.91a7.745 7.745 0 1 1 7.745-7.745 7.755 7.755 0 0 1-7.745 7.745z" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>
