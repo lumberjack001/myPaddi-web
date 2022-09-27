@@ -484,6 +484,32 @@ button {
     margin: 1rem 0;
 }
 
+@media only screen and (max-width: 576px) {
+    .user-section {
+        display: none;
+    }
+
+    .buttons button {
+        width: 32%;
+        padding: 10px;
+    }
+
+    .buttons button p {
+        margin-left: 5px;
+        color: #fff;
+        font-size: 0.7rem;
+    }
+
+    .bitmaps {
+        justify-content: space-around;
+    }
+
+    .bitmaps img {
+        width: 35%;
+        height: 30px;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     .user-section {
         display: none;
@@ -497,11 +523,6 @@ button {
         padding: 1.5rem 0.5rem;
     }
 
-
-    .jay button {
-        margin: 0 auto;
-    }
-
     .profile p {
         font-size: 0.8rem;
     }
@@ -509,11 +530,6 @@ button {
     .buttons button {
         width: 32%;
         padding: 10px;
-    }
-
-    .buttons button img {
-        width: 15px;
-        height: 15px;
     }
 
     .buttons button p {
