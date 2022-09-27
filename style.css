@@ -30,6 +30,10 @@ button {
     max-height: 100vh;
 }
 
+.user>* {
+    margin: 1.3rem 0;
+}
+
 .WEB-THE-ZONE {
     width: 100%;
     padding: 0 0 129.8px;
@@ -42,19 +46,16 @@ button {
 }
 
 .padding {
+    width: 100%;
     padding: 3rem 1rem 3rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.padding>* {
-
-    margin: 10px 0;
-}
-
 .user-avatar {
     position: relative;
+    margin-bottom: 1rem;
 }
 
 .user-img {
@@ -80,11 +81,11 @@ button {
 }
 
 .user-details>* {
-    margin: 0;
+    margin: 0.3rem 0;
 }
 
 .user-name {
-    font-size: 15px;
+    font-size: 1.1rem;
     font-weight: 500;
     line-height: 1.28;
 }
@@ -108,13 +109,13 @@ button {
 }
 
 .my-post img {
-    width: 15px;
-    height: 15px;
+    width: 1.1rem;
+    height: 1.1rem;
 }
 
 .my-post p {
     margin: 0 0 0 10px;
-    font-size: 13px;
+    font-size: 1rem;
 }
 
 .profile-btn {
@@ -122,8 +123,8 @@ button {
     padding: 7.5px 20.5px 7px 20.5px;
     border-radius: 5px;
     background-color: #ededfb;
-    font-size: 13px;
-    border-radius: 3px;
+    font-size: 1rem;
+    border-radius: 5px;
 }
 
 .info-card {
@@ -327,10 +328,13 @@ button {
 .buttons button {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    padding: 9px 22px 9px 16px;
+    width: 28%;
+    padding: 10px 25px;
     background-color: #5c53ef;
     border-radius: 7px;
+    text-align: center;
 }
 
 .buttons button img {
@@ -339,7 +343,10 @@ button {
 }
 
 .buttons button p {
-    margin: 0 10px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
     color: #fff;
     font-size: 15px;
 }
@@ -353,7 +360,7 @@ button {
     width: 100%;
     border-radius: 10px;
     background-color: #fff;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 
@@ -377,6 +384,10 @@ button {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.question {
+    font-size: 1rem;
 }
 
 .post-info {
@@ -463,4 +474,51 @@ button {
 .comment-topic {
     font-size: 18px;
     color: #211a90;
+}
+
+.button {
+    color: #fff;
+    padding: 0.3rem 1rem;
+    background-color: #5c53ef;
+    border-radius: 7px;
+    margin: 1rem 0;
+}
+
+@media only screen and (max-width: 375px) {
+    .user-section {
+        display: none;
+    }
+
+    main {
+        max-width: 100%;
+    }
+
+    .padding {
+        padding: 1.5rem 0.5rem;
+    }
+
+
+    .jay button {
+        margin: 0 auto;
+    }
+
+    .profile p {
+        font-size: 0.8rem;
+    }
+
+    .buttons button {
+        width: 32%;
+        padding: 10px;
+    }
+
+    .buttons button img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .buttons button p {
+        margin-left: 5px;
+        color: #fff;
+        font-size: 0.6rem;
+    }
 }
