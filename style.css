@@ -639,6 +639,19 @@ button {
 
 }
 
+@media only screen and (max-width: 434px){
+    .buttons button {
+        width: 31%;
+        padding: 10px 7px;
+    }
+
+    .buttons button p {
+        margin-left: 5px;
+        color: #fff;
+        font-size: 0.6rem;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     .user-section {
         display: none;
@@ -657,8 +670,8 @@ button {
     }
 
     .buttons button {
-        width: 32%;
-        padding: 10px;
+        width: 30%;
+        padding: 8px;
     }
 
     .buttons button p {
