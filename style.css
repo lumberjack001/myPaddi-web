@@ -641,14 +641,14 @@ button {
 
 @media only screen and (max-width: 434px){
     .buttons button {
-        width: 31%;
-        padding: 10px 7px;
+        width: 31.5%;
+        padding: 10px 8px;
     }
 
     .buttons button p {
         margin-left: 5px;
         color: #fff;
-        font-size: 0.65rem;
+        font-size: 0.7rem;
     }
 }
 
