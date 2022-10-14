@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    text-decoration: none;
+
+}
+
+.background {
+    border: solid 1px #fff;
+    background-image: linear-gradient(166deg, #fcfcfc 3%, #f5f4f9 97%);
+    height: 110vh;
+}
+
+.user>* {
+    margin: 1.3rem 0;
+}
+
+.WEB-THE-ZONE {
+    width: 100%;
+    padding: 0 0 129.8px;
+    background-color: #f3f2f7;
+}
+
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.padding {
+    width: 100%;
+    padding: 3rem 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-avatar {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.user-img {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.cam-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 70%;
+    bottom: 0;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.user-details>* {
+    margin: 0.3rem 0;
+}
+
+.user-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.28;
+}
+
+.user-info>* {
+    margin-bottom: 10px;
+}
+
+.caption {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #acacac;
+    margin: 0;
+}
+
+.my-post {
+    color: #8894b4;
+    align-items: center;
+}
+
+.my-post img {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.my-post p {
+    margin: 0 0 0 10px;
+    font-size: 1rem;
+}
+
+.profile-btn {
+    color: #5c53ef;
+    padding: 7.5px 20.5px 7px 20.5px;
+    border-radius: 5px;
+    background-color: #ededfb;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.info-card {
+    text-align: center;
+}
+
+.info-card>img {
+    width: 12px;
+    height: 18px;
+}
+
+.info-card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card-info>h4 {
+    margin: 0 0 0 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.24;
+}
+
+.info-card-info>p {
+    margin: 0 0 0 15px;
+}
+
+.info-card-info>* {
+    margin: 0;
+}
+
+.paddies {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #c9c9c9;
+}
+
+.paddies p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #000;
+    margin: 0;
+}
+
+.paddies button {
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    background: transparent;
+    align-items: center;
+
+}
+
+.paddies button img {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+.search-bar {
+    width: 100%;
+    background: #eceaf3;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.search-bar button {
+    border: 0;
+    padding-right: 10px;
+
+}
+
+.search-bar button img {
+    width: 15px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.chat-pad {
+    padding: 30px;
+    margin: 10px 0;
+    background: #fdfdfd;
+    border-radius: 10px;
+}
+
+.chat img {
+    width: 150px;
+    height: 120px;
+}
+
+.chat-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.chat h5 {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bitmaps {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bitmaps img {
+    width: 48%;
+    height: 27px;
+}
+
+.padding header {
+    width: 100%;
+}
+
+.jay {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.notification {
+    width: 18px;
+    height: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.jay button {
+    margin: 0 auto;
+}
+
+.profile>* {
+    margin: 0 5px;
+}
+
+.profile-icon {
+    position: relative;
+
+}
+
+.oval {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-svg {
+    position: absolute;
+    left: 7.6px;
+    right: 5px;
+    bottom: 5px;
+    top: 8px;
+    width: 15px;
+    height: 14px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.buttons button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    padding: 10px 25px;
+    background-color: #5c53ef;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.buttons button img {
+    width: 15px;
+    height: 15px;
+}
+
+.buttons button p {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.content {
+    width: 100%;
+    margin: 0;
+}
+
+.content-tabs {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+
+.content-pad {
+    padding: 30px;
+    width: 100%;
+}
+
+
+.content-pad>* {
+    margin-bottom: 10px;
+}
+
+.user-post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.questionaire {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.question {
+    font-size: 1rem;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    margin-bottom: 30px;
+}
+
+.user-post>* {
+    margin: 5px;
+}
+
+.user-post img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.options {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: solid 1px #e2e2e2;
+    margin: 5px 0;
+}
+
+.post-info {
+    color: #211a90;
+    font-size: 12px;
+}
+
+.time img {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+}
+
+.likes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid #bcbcbc;
+    padding-top: 10px;
+}
+
+.likes p {
+    font-size: 13px;
+    color: #575757;
+    font-weight: 300;
+}
+
+.likes button {
+    display: flex;
+    align-items: center;
+}
+
+.likes button img {
+    width: 15px;
+    height: 13px;
+    margin-right: 5px;
+}
+
+.likes button p {
+    font-size: 13px;
+    color: #575757;
+    font-weight: 300;
+}
+
+.comments {
+    margin-bottom: 30px;
+}
+
+.comment-topic {
+    font-size: 18px;
+    color: #211a90;
+}
+
+.button {
+    color: #fff;
+    padding: 0.3rem 1rem;
+    background-color: #5c53ef;
+    border-radius: 7px;
+    margin: 1rem 0;
+}
+.product-img {
+    display: flex;
+    justify-content: center;
+}
+
+.product-img img {
+    width: 90%;
+    height: 90px;
+}
+
+
+
+@media only screen and (max-width: 1198px) {
+    .buttons button {
+        width: 31%;
+        padding: 8px 6px;
+    }
+
+    .background {
+        border: 0;
+        background: 0;
+    }
+
+    .search-bar {
+        margin-bottom: 1rem;
+    }
+
+    .product-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-img img {
+        width: 50%;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .user-section {
+        display: none;
+    }
+
+    .buttons button {
+        width: 31%;
+        padding: 8px 6px;
+    }
+
+    .Doc-section {
+        margin: 0 auto;
+        border-radius: 0.7rem;
+        height: 150%;
+    }
+
+    .chat {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .chat-pad {
+        width: 45%;
+    }
+
+    .chat img {
+        margin-top: 0.5rem;
+    }
+
+    .search-bar {
+        margin: 1rem auto;
+    }
+
+    .bitmaps img {
+        width: 34%;
+        height: 40px;
+    }
+
+    /* .content-tabs {
+        width: 80%;
+        margin: 1rem auto;
+    } */
+}
+
+@media only screen and (max-width: 768px) {
+    .user-section {
+        display: none;
+    }
+
+    .buttons button {
+        width: 31%;
+        padding: 8px 6px;
+    }
+
+    .Doc-section {
+        margin: 0 auto;
+        border-radius: 0.7rem;
+        height: 150%;
+    }
+
+    .chat-Doc {
+        padding: 0;
+    }
+
+    .chat img {
+        width: 10rem;
+        height: 9rem;
+        margin-top: 0.5rem;
+    }
+
+    .chat {
+        flex-direction: column;
+    }
+
+    .chat-pad {
+        width: 100%;
+    }
+
+    .bitmaps {
+        width: 80%;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .bitmaps img {
+        width: 35%;
+        height: 35px;
+    }
+
+    .product-img img {
+        width: 50%;
+        height: 80px;
+    }
+
+    .WEB-THE-ZONE {
+        padding: 0 0 100px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .user-section {
+        display: none;
+    }
+
+    .buttons button {
+        width: 32%;
+        padding: 10px 8px;
+    }
+
+    .buttons button p {
+        margin-left: 5px;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+
+    .bitmaps {
+        justify-content: space-between;
+    }
+
+    .bitmaps img {
+        width: 35%;
+        height: 30px;
+    }
+
+    .Doc-section {
+        border-radius: 0;
+    }
+
+    .WEB-THE-ZONE {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 434px){
+    .buttons button {
+        width: 31.5%;
+        padding: 10px 8px;
+    }
+
+    .buttons button p {
+        margin-left: 5px;
+        color: #fff;
+        font-size: 0.65rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .user-section {
+        display: none;
+    }
+
+    main {
+        max-width: 100%;
+    }
+
+    .padding {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .profile p {
+        font-size: 0.8rem;
+    }
+
+    .buttons button {
+        width: 30%;
+        padding: 8px;
+    }
+
+    .buttons button p {
+        margin-left: 5px;
+        color: #fff;
+        font-size: 0.6rem;
+    }
+}
