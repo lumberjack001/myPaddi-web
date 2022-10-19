@@ -1,0 +1,257 @@
+.jay {
+    /* width: 35%; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.jay>button {
+    width: 10%;
+    /* margin-left: 100px; */
+}
+
+.notification {
+    width: 18px;
+    height: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.profile>* {
+    margin: 0 5px;
+}
+
+.profile-icon {
+    position: relative;
+
+}
+
+.oval {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-svg {
+    position: absolute;
+    left: 7.6px;
+    right: 5px;
+    bottom: 5px;
+    top: 8px;
+    width: 15px;
+    height: 14px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.buttons button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    padding: 10px 25px;
+    background-color: #5c53ef;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.buttons button img {
+    width: 15px;
+    height: 15px;
+}
+
+.buttons button p {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.content {
+    width: 100%;
+    margin: 0;
+}
+
+.content-tabs {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+
+.content-pad {
+    padding: 30px;
+    width: 100%;
+}
+
+
+.content-pad>* {
+    margin-bottom: 10px;
+}
+
+.questionaire {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.question {
+    font-size: 1rem;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: solid 1px #e2e2e2;
+    margin: 5px 0;
+}
+
+.post-info {
+    color: #211a90;
+    font-size: 12px;
+}
+
+.time img {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+}
+
+.likes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid #bcbcbc;
+    padding-top: 10px;
+}
+
+.likes p {
+    font-size: 13px;
+    color: #575757;
+    font-weight: 300;
+}
+
+.likes button {
+    display: flex;
+    align-items: center;
+}
+
+.likes button img {
+    width: 15px;
+    height: 13px;
+    margin-right: 5px;
+}
+
+.likes button p {
+    font-size: 13px;
+    color: #575757;
+    font-weight: 300;
+}
+
+.comments {
+    margin-bottom: 30px;
+}
+
+.comment-topic {
+    font-size: 18px;
+    color: #211a90;
+}
+
+
+
+
+@media only screen and (max-width: 1198px) {
+    .buttons button {
+        width: 31%;
+        padding: 8px 6px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .buttons button {
+        width: 31%;
+        padding: 8px 6px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .buttons button {
+        width: 31%;
+        padding: 8px 6px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .buttons button {
+        width: 32%;
+        padding: 10px 8px;
+    }
+
+    .buttons button p {
+        margin-left: 5px;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 434px) {
+    .buttons button {
+        width: 31.5%;
+        padding: 10px 8px;
+    }
+
+    .buttons button p {
+        margin-left: 5px;
+        color: #fff;
+        font-size: 0.65rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+
+    .profile p {
+        font-size: 0.8rem;
+    }
+
+    .buttons button {
+        width: 30%;
+        padding: 8px;
+    }
+
+    .buttons button p {
+        margin-left: 5px;
+        color: #fff;
+        font-size: 0.6rem;
+    }
+
+}

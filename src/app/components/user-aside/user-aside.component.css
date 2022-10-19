@@ -1,0 +1,120 @@
+/* contents
+1. user */
+
+.user>* {
+    margin: 1rem 0;
+}
+
+.user-avatar {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+
+.cam-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 70%;
+    bottom: 0;
+}
+
+.my-post {
+    color: #8894b4;
+    align-items: center;
+}
+
+.my-post img {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.my-post p {
+    margin: 0 0 0 10px;
+    font-size: 1rem;
+}
+
+.profile-btn {
+    color: #5c53ef;
+    padding: 7.5px 20.5px 7px 20.5px;
+    border-radius: 5px;
+    background-color: #ededfb;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.user-info>* {
+    margin-bottom: 10px;
+}
+
+.info-card {
+    text-align: center;
+}
+
+.info-card>img {
+    width: 12px;
+    height: 18px;
+}
+
+.info-card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card-info>h4 {
+    margin: 0 0 0 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.24;
+}
+
+.info-card-info>p {
+    margin: 0 0 0 15px;
+}
+
+.info-card-info>* {
+    margin: 0;
+}
+
+.paddies {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #c9c9c9;
+}
+
+.paddies p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #000;
+    margin: 0;
+}
+
+.paddies button {
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    background: transparent;
+    align-items: center;
+
+}
+
+.paddies button img {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .user-section {
+        display: none;
+    }
+
+}
